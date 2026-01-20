@@ -1,0 +1,10 @@
+@media (max-width: 400px)
+ {
+  .content { max-width: 400px;
+     height: 300px; }
+     .card{
+          width: 90px;
+          height: 90px;
+          border-radius: 50% 0% 0% 50%;
+          margin-left: 5% ;}
+     }

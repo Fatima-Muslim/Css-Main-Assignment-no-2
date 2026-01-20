@@ -1,0 +1,21 @@
+
+@media (max-width: 400px)
+ {
+  .card { max-width: 400px;
+     height: 300px; }
+     .img{
+          width: 90px;
+          height: 90px;
+          border-radius: 50% 0% 0% 50%;
+          margin-left: 5% ;
+     }
+  .shoes { left: 6px;
+     width: 200px;
+    transform: rotate(-12deg); 
+  }
+  .sidebar { left: 10px;
+     width: 260px; 
+     height: 260px;
+      top: 40px; 
+    left: 10px;}
+}

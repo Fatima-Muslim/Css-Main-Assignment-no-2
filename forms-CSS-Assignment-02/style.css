@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.main{
+   background-color: rgb(253, 253, 255); 
+   display: flex;
+   min-height: 100vh;
+   min-width: 100%;
+   position: absolute;
+}
+/* //////////side bar start///////// */
+
+.sidebar{
+
+    background-color: rgb(120, 120, 247);
+    padding: 3%;
+    width: 30%;
+    position: relative;  
+    border-radius: 20% 0% 0% 20%;
+}
+.sidebar h1{
+    padding: 5%;
+    margin-bottom: 7%;   
+}
+.hero{
+    padding: 5%;
+    background-color: blue;
+    margin-top: 60%;
+    color: aliceblue;
+}
+.img{
+     width: 40%;
+     height: 30%;
+}
+h6 {
+    margin-top: 50%;
+    color: blue; 
+}
+/* /////////sidebar  end ////////// */
+/* ///////////form start/////////// */
+.form{
+    background-color: rgb(215, 210, 221);
+    width:50% ;
+    padding: 5%;
+    border-radius: 0%  20% 20% 0%;
+    text-align: center;
+}
+.up{
+    margin-bottom: 5%;
+}
+.radio{
+    margin-bottom: 5%;
+
+}
+
+.radio{
+    display: flex;
+    gap: 10px; 
+      
+}
+.btnradio{
+     border: 1px solid black;
+     border-radius: 20px;
+     padding: 5px;
+     margin-left: 25%;
+    
+}
+
+
+.Forminputs{
+     margin-top: 10px;
+}
+.btn{
+    width: 200px;
+    height: 50px;
+    border: none;
+    display: block;
+    margin-top:5%;
+    background-color: blue;
+    color: aliceblue;
+    font-size: 1em;
+    border-radius: 20px;
+    margin-left: 35%;
+    transition: transform 1s ease-in-out;
+}
+.btn:hover{
+    transform: scale(1.5);
+    background-color: aliceblue;
+    color: blue;
+}
+
+/* @media (min-width:400px)and ( max-width:)
+.main
+    {
+        flex-direction: column;
+    }
+
+    .sidebar,
+    .form {
+       min-width:100%;
+        padding: 10px;
+    }
+
+    .radio {
+        flex-direction: block;
+    }
+
+    .btnradio {
+        text-align: center;
+    }
+
+    .img {
+       min-width:30px;
+    } */

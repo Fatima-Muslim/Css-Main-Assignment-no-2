@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    height: 90vh;
+    width: 500px;
+    background-color: powderblue;
+    margin: 0% auto;
+    padding-top: 7%;
+}
+
+.card {
+    height: 400px;
+    width: 65%;
+    background-color: rgb(246, 228, 195);
+    margin: 0% auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
+}
+
+.card img {
+    position: absolute;
+    top: - 3%;
+    width: 130%;
+    left: -19%;
+    bottom: 50%;    
+    filter: drop-shadow(7px 5px 2px #aa8e8e);
+
+}
+
+h1 {
+    position: absolute;
+    bottom: 0%;
+    height: 50%;
+    text-align: center;
+    margin: 10% 25% 3%;
+    letter-spacing: 8%;
+    font: 42px sans-serif;
+    color: red;
+}
+
+p {
+    position: absolute;
+    bottom: 0%;
+    height: 40%;
+    text-align: center;
+    margin: 0% 20%
+    
+}
+
+.btnleft{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: maroon;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left:-15px;
+    
+}
+.btnleft i{
+    padding: 6px;
+}
+
+.btnright{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: maroon;
+    color: white;
+    position: absolute;
+    top: 4%;
+    left: 325px;
+    
+}
+.btnright i{
+    padding: 6px;
+}
+.box h4{
+    font-size: 15px;
+    margin-bottom: 8px;
+    bottom: 0;
+     position: absolute;
+    height: 18%;
+     margin: 10px;   
+}
+.counter{
+    font-size: 15px;
+    margin-bottom: 8px;
+    bottom: 0;
+     position: absolute;
+    height: 12%;
+     margin:5%;
+     left: 3%;
+}
+.count{
+      color: rgb(138, 18, 18); 
+
+}
+.box1 {
+    font-size: 15px;
+    margin-bottom: 8px;
+    bottom: 0;
+     position: absolute;
+    height: 18%;
+     margin: 10px;
+     left:35%;
+}
+ .counter1{
+  font-size: 15px;
+    margin-bottom: 10px;
+    bottom: 0;
+     position: absolute;
+    height: 70%;
+     margin:6%;
+     left: 3%;                   
+}
+ .count1{
+    color: maroon;
+}
+.box2{
+     font-size: 15px;
+    margin-bottom: 8px;
+    bottom: 0;
+     position: absolute;
+    height: 85%;
+     margin: 10px;
+     left: 160%;
+
+}
+.mins{
+    color:maroon;
+
+}
+.bt{
+    width: 130px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    display: block;
+    margin:-8% 30% ;
+     font-size: 1.1em;
+    background-color: rgb(238, 76, 76);
+    bottom: 0;
+     position: absolute;
+     font-size: smaller;
+     color: aliceblue;
+     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+ }
+ .bt:hover{
+    background-color: maroon;
+ }
+ 
